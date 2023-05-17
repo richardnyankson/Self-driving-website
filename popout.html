@@ -1,0 +1,57 @@
+<!-- content: when the popout is activated, we want to see text show up-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Obstacle popout</title>
+  <link href="popout.css" rel="stylesheet">
+  <script defer src="popout.js"></script>
+  <h2  class="logo"><a style="font-size:25px; color:white; font-family:Verdana, Geneva, Tahoma, sans-serif" href="index.html"><b>HOME</b> </a></h2>
+</head>
+<body>
+<h1 style="text-align: center; margin-top: 20px;">Challenges Encountered:</h1>
+
+<div style="width: 50%; margin: 0 auto; background-color: #f2f2f2; padding: 20px; margin-top: 50px; text-align: center; ">
+    <p>Self-driving cars have emerged as a groundbreaking technology with the potential
+         to <br>revolutionize transportation. With advanced sensors, artificial intelligence, 
+         and sophisticated <br>algorithms, these autonomous vehicles promise increased safety, improved efficiency, and <br>enhanced mobility. However, as with any disruptive innovation, self-driving cars also face 
+        <br>significant challenges that must be overcome for their widespread adoption. In the following <br>paragraph, we will delve into some of the key obstacles and complexities that self-driving <br>cars encounter in today's dynamic landscape. </p>
+</div>
+
+<section id="challenge">
+<div class="d-grid gap-2 d-md-block" id="button1">
+  <button data-modal-target="#modal">Obstacle 1</button>
+</div>
+  <div class="modal" id="modal">
+    <div class="modal-header">
+      <div class="title">Example Obstacle</div>
+      <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod alias ut illo doloremque eum ipsum obcaecati distinctio debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus, consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem at ad autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus tenetur sint officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem quis iusto totam! Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
+    </div>
+  </div>
+  <div id="overlay"></div>
+
+  <div class="d-grid gap-2 d-md-block" id="button2">
+  <button data-modal-target="#modal">Obstacle 2</button>
+ </div>
+  <div class="modal" id="modal">
+    <div class="modal-header">
+      <div class="title">Example popout</div>
+      <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod alias ut illo doloremque eum ipsum obcaecati distinctio debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus, consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem at ad autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus tenetur sint officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem quis iusto totam! Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
+    </div>
+  </div>
+</section>
+  <!-- <div id="overlay"></div> -->
+
+  <div class="scrolling-text">
+    Breaking News: Self driving cars reach 30th crashes in just two weeks
+</body>
+</html>
