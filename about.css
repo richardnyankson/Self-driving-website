@@ -57,7 +57,7 @@
   position: center;
   opacity: 100;
   font-weight: 600;
-  height: 500px;
+  height: fit-content;
   
 }
 .text{
