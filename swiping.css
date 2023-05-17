@@ -63,7 +63,7 @@ img.active {
 .text {
   font-size: 25px;
   background-color: white;
-  height: 250px;
+  height: fit-content;
   padding: 10px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
