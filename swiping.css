@@ -51,14 +51,14 @@ img.active {
   left: 10px;
 }
 .prev:hover {
-  background: white;
+  background: goldenrod;
 }
 
 .next {
   right: 10px;
 }
 .next:hover {
-  background: white;
+  background: goldenrod;
 }
 .text {
   font-size: 25px;
