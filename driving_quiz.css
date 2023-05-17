@@ -7,14 +7,6 @@
 body {
   background-color: #111;
 }
-a {
-  text-decoration: none;
-}
-head .logo {
-  color: #100e0e;
-  cursor: pointer;
-  position: absolute;
-}
 
 body {
   background-color: black;
